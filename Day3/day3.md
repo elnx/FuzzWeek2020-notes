@@ -16,7 +16,7 @@ Code Link: https://github.com/gamozolabs/fuzz_with_emus/tree/63d87824f676d0e4326
 * Build the linux toolchain
   * Breaks because needs A extension (atomics)
   * Instead, build against newlib
-    * `./configur e--prefix=/opt/rv64i-newlib ...`
+    * `./configure --prefix=/opt/rv64i-newlib ...`
 
 ## Newlib (Red Hat newlib C Library)
 * Very simplified with minimal number of instructions
